@@ -3,7 +3,7 @@ module_version: "1.0"
 var:
   - name: paths
     default:
-      - /opt/FileMaker/FileMaker\ Server/Logs/Access.log
+      - /opt/FileMaker/FileMaker Server/Logs/Access.log
     os.darwin:
       - /Library/FileMaker Server/Logs/Access.log
     os.windows:
