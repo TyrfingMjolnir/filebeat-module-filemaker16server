@@ -3,7 +3,7 @@ This is a project adopting the logs of FileMaker 16 Server to the filebeat shipp
 
 The purpose of this module is to give you as the user the ability to browse your FileMaker 16 Server logs visually using kibana, or elasticsearch in other ways to analyze your logs.
 
-This piece of software was written by Arne Rolf Heier and Gjermund Gusland Thorsen; even though we claim the copyright it's for you to use free of charge. This piece of software comes with no warranty what so ever. Use it at your own risk.
+This piece of software was written by Arne Rolf Heier and Gjermund Gusland Thorsen; even though we claim the copyright this software is free for you to use and modify as long as the original authors are mentioned. This piece of software comes with no warranty what so ever. Use it at your own risk.
 
 # Current status is: Access.log is ready for testing.
 
