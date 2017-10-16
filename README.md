@@ -6,3 +6,12 @@ The purpose of this module is to give you as the user the ability to browse your
 This piece of software was written by Arne Rolf Heier and Gjermund Gusland Thorsen; even though we claim the copyright it's for you to use free of charge. This piece of software comes with no warranty what so ever. Use it at your own risk.
 
 # Current status is: Access.log is ready for testing.
+
+# Some notes
+
+http://help.filemaker.com/app/answers/detail/a_id/6551/~/tracking-activity-in-log-files-in-filemaker-server
+https://www.elastic.co/guide/en/beats/devguide/current/filebeat-modules-devguide.html
+
+```Sh
+curl -XDELETE http://localhost:9200/_ingest/pipeline/filebeat-5.6.2--filemaker-pipeline
+```
