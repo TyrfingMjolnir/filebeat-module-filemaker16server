@@ -17,8 +17,9 @@ sudo bin/elasticsearch-plugin install ingest-geoip
 @     WARNING: plugin requires additional permissions     @
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 * java.lang.RuntimePermission accessDeclaredMembers
-See [http://docs.oracle.com/javase/8/docs/technotes/guides/security/permissions.html](http://docs.oracle.com/javase/8/docs/technotes/guides/security/permissions.html) for descriptions of what these permissions allow and the associated risks.
+See http://docs.oracle.com/javase/8/docs/technotes/guides/security/permissions.html for descriptions of what these permissions allow and the associated risks.
 ```
+[http://docs.oracle.com/javase/8/docs/technotes/guides/security/permissions.html](http://docs.oracle.com/javase/8/docs/technotes/guides/security/permissions.html)
 
 # Some notes
 
