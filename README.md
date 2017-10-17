@@ -12,6 +12,11 @@ This piece of software was written by Arne Rolf Heier and Gjermund Gusland Thors
 ```Sh
 sudo bin/elasticsearch-plugin install ingest-geoip
 ```
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@     WARNING: plugin requires additional permissions     @
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+* java.lang.RuntimePermission accessDeclaredMembers
+See http://docs.oracle.com/javase/8/docs/technotes/guides/security/permissions.html for descriptions of what these permissions allow and the associated risks.
 
 # Some notes
 
