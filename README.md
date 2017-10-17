@@ -16,3 +16,4 @@ To reset the pipeline grok interpretation after making a change to the module:
 ```Sh
 curl -XDELETE http://localhost:9200/_ingest/pipeline/filebeat-5.6.2--filemaker-pipeline
 ```
+Remember \\ in filebeat = \ in logstash for escaping.
