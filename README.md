@@ -7,6 +7,12 @@ This piece of software was written by Arne Rolf Heier and Gjermund Gusland Thors
 
 # Current status is: access, deployment, event, fmdapi, stats, wpe, and wpe_debug -logs are ready for testing.
 
+# Pre-requisite
+
+```Sh
+sudo bin/elasticsearch-plugin install ingest-geoip
+```
+
 # Some notes
 
 http://help.filemaker.com/app/answers/detail/a_id/6551/~/tracking-activity-in-log-files-in-filemaker-server
