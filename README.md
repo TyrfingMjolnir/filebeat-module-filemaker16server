@@ -12,7 +12,7 @@ This piece of software was written by Arne Rolf Heier and Gjermund Gusland Thors
 http://help.filemaker.com/app/answers/detail/a_id/6551/~/tracking-activity-in-log-files-in-filemaker-server
 https://www.elastic.co/guide/en/beats/devguide/current/filebeat-modules-devguide.html
 
-To reset the grok:
+To reset the pipeline grok interpretation after making a change to the module:
 ```Sh
 curl -XDELETE http://localhost:9200/_ingest/pipeline/filebeat-5.6.2--filemaker-pipeline
 ```
