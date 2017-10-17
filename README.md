@@ -5,7 +5,7 @@ The purpose of this module is to give you as the user the ability to browse your
 
 This piece of software was written by Arne Rolf Heier and Gjermund Gusland Thorsen; even though we claim the copyright this software is free for you to use and modify as long as the original authors are credited. This piece of software comes with no warranty what so ever. Use it at your own risk.
 
-# Current status is: Access, deployment, event, fmdapi, stats, wpe, and wpe_debug -logs are ready for testing.
+# Current status is: access, deployment, event, fmdapi, stats, wpe, and wpe_debug -logs are ready for testing.
 
 # Some notes
 
