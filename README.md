@@ -7,11 +7,19 @@ This piece of software was written by Arne Rolf Heier and Gjermund Gusland Thors
 
 # Current status is: access, deployment, event, fmdapi, stats, wpe, and wpe_debug -logs are ready for testing.
 
-# Pre-requisite
+### Pre-requisite
 
 ```Sh
 sudo bin/elasticsearch-plugin install x-pack --batch
 sudo bin/elasticsearch-plugin install ingest-geoip --batch
+```
+
+### How to install
+
+```Sh
+cd /tmp/
+git clone https://github.com/TyrfingMjolnir/filebeat-module-filemaker16server
+mv filemaker /path/to/filebeat/module/
 ```
 
 # Some notes
@@ -23,4 +31,6 @@ To reset the pipeline grok interpretation after making a change to the module:
 ```Sh
 curl -XDELETE http://localhost:9200/_ingest/pipeline/filebeat-5.6.2--filemaker-pipeline
 ```
+
+### Note to self
 Remember ```\\\``` in filebeat = ```\``` in logstash for escaping.
