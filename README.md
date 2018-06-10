@@ -19,7 +19,7 @@ sudo bin/elasticsearch-plugin install ingest-geoip --batch
 ```Sh
 cd ~/Documents/
 ```
-or
+or if you do not care about the github and the possibility to update the github repo; just download your github project to tmp and the files you are not installing will be gone the next time you reboot your machine.
 ```Sh
 cd /tmp/
 git clone https://github.com/TyrfingMjolnir/filebeat-module-filemaker16server
