@@ -17,6 +17,10 @@ sudo bin/elasticsearch-plugin install ingest-geoip --batch
 ### How to install
 
 ```Sh
+cd ~/Documents/
+```
+or
+```Sh
 cd /tmp/
 git clone https://github.com/TyrfingMjolnir/filebeat-module-filemaker16server
 mv filemaker /path/to/filebeat/module/
