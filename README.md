@@ -1,3 +1,6 @@
+# This repo is deprecated
+Use this one: https://github.com/TyrfingMjolnir/Elasticsearch-FileMaker-Logging
+
 # filebeat-module-filemaker16server
 This is a project adopting the logs of FileMaker 16 Server to the filebeat shipper for elasticsearch aka elk-stack
 
